@@ -52,7 +52,4 @@ function addTask() {
 function deleteAllBtn() {
   let userData = document.getElementById("todo_list");
   userData.innerHTML = "";
-  if (userData.innerHTML === "") {
-    alert("Input fields are required");
-  }
 }
